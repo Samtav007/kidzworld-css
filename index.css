@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head6 {
+    max-width: 180px;
+}
+
+.head5,
+.head4 {
+    max-width: 320px;
+}
+
+.flex {
+    display: flex;
+}
+
+.he {
+    flex-direction: column;
+    padding: 5vh;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+}
+
+nav img {
+    height: 35px;
+}
+
+#cart {
+    font-weight: bolder;
+    align-items: center;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background-image: url("./assets/kw-background.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10vh;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head2 {
+    flex-direction: column;
+    max-width: 25%;
+    padding: 8vh;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 7vh;
+}
+
+header h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.good {
+    margin: 4% 0%;
+}
+
+.head3 {
+    cursor: pointer;
+    background-color: #6592ed;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.buy img {
+    width: 25px;
+    padding-left: 5px;
+}
+
+.buy {
+    margin-top: 16px;
+    padding-bottom: 55px;
+}
+
+footer {
+    background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    background-size: cover;
+    color: white;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+footer img {
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+}
+
+#info {
+    flex-direction: column;
+    text-align: right;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(129, 124, 124);
+    font-weight: lighter;
+}
+
+.dream {
+    width: 20vw;
+}
+
+h3,
+h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .head2 {
+        max-width: 100%;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
